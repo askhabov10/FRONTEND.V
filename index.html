@@ -88,19 +88,19 @@
             }*/
 
 
-            let one = prompt("one")
-            let two = prompt("two")
-            let three = prompt("three")
+            let one = parseFloat(prompt("Введите первое число:"));
+            let two = parseFloat(prompt("Введите второе число:"));
+            let three = parseFloat(prompt("Введите третье число:"));
 
             if (one >= two && one >= three) {
-            max = one;
+            console.log("Максимальное число: " + one)
             } else if (two >= one && two >= three) {
-            max = two;
+            console.log("Максимальное число: " + two)
             } else{
-            max = three;
+            console.log("Максимальное число: " + three)
             }
 
-            console.log("Максимальное число: " + max)
+            
 
     </script>
 
