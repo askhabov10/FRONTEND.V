@@ -225,12 +225,148 @@
         */
 
 
-
+        
+        /*
         let number = [1, 3, 5, 7, 9]
 
         for(let i=0; i < number.length; i++){
             console.log(number[i]+ 1 )
         }
+        */
+
+//--------------------------------------------------------------------------------
+// УРОК 21
+
+
+/*
+let a =  [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100]
+
+
+a.forEach(element => {
+    if (element % 2 !== 0) {
+        console.log(element);
+    }
+});
+*/ 
+
+
+
+/*
+ let a =  [ "lorem ipsum", "javascript", "php", "css", "react", "git", "html", "mysql"]
+
+        
+        let b = a.filter(element => element.length < 4)
+
+            console.log(b)
+*/
+
+
+
+/*
+let a = [1, -3, 5, 6, -7, 8, 9, -11]
+
+    let b = a.filter(element => element < 0)
+
+        console.log(b)
+*/
+
+
+
+
+/*
+let a = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100]
+
+  let b = a.filter(element => element % 2 === 0) 
+
+        console.log(b);
+*/ 
+
+
+
+/*
+let a =  [ "lorem ipsum", "javascript", "php", "css", "react", "git", "html", "mysql"]
+
+    let b = a.filter(element => element.length !== 3)
+
+        console.log(b)
+*/
+
+
+
+
+/*
+let a = [5, 6, 7, 8, 9]
+
+       let b = a.map(element => element * element)
+
+       console.log(b)
+*/
+
+
+
+
+
+/*
+let a =  [{a: 10, b: 5}, {a: 20, b: 22}, {a: 131, b:55}]
+
+        let b = a.reduce((acc, obj) => {
+            let c  = obj.a + obj.b
+
+        acc.push(c)
+
+        return acc    
+
+        }, [] )
+
+
+        console.log(b)
+*/
+
+
+
+
+/*
+        let a = [-13, 0, 12, 1662, -0.32, -102, -2]
+
+        let b = a.filter(element => element < 0)
+
+       let c = b.reduce((acc, element) => acc + element, 0 )
+        
+        console.log(c)
+*/
+
+
+
+
+
+let a = [ {x: 10, y: "lore"}, {x: 21, y: "lorem"}, {x: -17, y: "lorem"}, {x: 156, y: "lorem"}]
+
+
+        let b = a.reduce((acc, obj) => acc + obj.x, 0) 
+
+
+        console.log(b)
+
+
+
+//----------------------------------------------------------------------------------
+// Урок 22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
