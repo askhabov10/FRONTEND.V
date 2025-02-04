@@ -491,13 +491,77 @@ let a = [ {x: 10, y: "lore"}, {x: 21, y: "lorem"}, {x: -17, y: "lorem"}, {x: 156
 
 
 
-
+/*
 let b = a.map(obj =>({
     title: "Expovision",
     body: obj.body
 }))
 
     console.log(b)
+*/
+
+
+
+
+//-----------------------------------------------------------------------------------------------------------------
+// Урок 23
+
+
+/*
+let arr_1 = [101, 202, 303, 404, 505]
+
+let arr_2 = [606, 707, 808, 909]
+
+
+let superArr = [...arr_1, ...arr_2]
+
+
+console.log(superArr )
+*/
+
+
+
+/*
+Math.min(...superArr)
+
+
+
+console.log(superArr )
+*/
+
+
+
+
+
+/*
+ let obj = {width: 300,  heigth: 550}
+
+ let obj2 ={
+    ...obj,
+    area(){
+        return this.width * this.heigth
+    }
+ }
+
+
+console.log(obj2.area())
+*/
+
+
+
+
+/*
+function a(...b){
+    return b.reduce((acc, element) => acc + element , 0)
+}
+
+
+console.log(a(1,34,56,35,97,54))
+*/
+
+
+
+
 
 
 
